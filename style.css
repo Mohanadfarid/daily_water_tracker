@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #3494e4;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 20px 0;
+  font-size: larger;
+}
+
+.L {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remained {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6ab3f8;
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+
+.cup {
+  background-color: white;
+  border: 4px solid #144fc6;
+  color: #144fc6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+  height: 350px;
+  border-radius: 0 0 40px 40px;
+  margin: 10px 5px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.small_cup {
+  width: 60px;
+  height: 100px;
+  border-radius: 0 0 30% 30%;
+  cursor: pointer;
+}
+
+.cups_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  transition: 0.5s ease;
+}
+
+.full {
+  background-color: #6ab3f8;
+  color: white;
+}
+
+span {
+  text-align: center;
+}
